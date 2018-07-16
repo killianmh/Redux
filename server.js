@@ -14,7 +14,7 @@ let app = express();
 //Use logger and bodyParser
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencocded({ 'extended': 'false'}));
+app.use(bodyParser.urlencoded({ 'extended': 'false'}));
 
 //If in production mode, use static build in client folder
 if(process.env.NODE_ENV === 'production'){
