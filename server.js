@@ -1,4 +1,4 @@
-//Required modules and middleware
+//Require modules and middleware for later use
 let express = require('express');
 let path = require('path');
 let logger = require('morgan');
