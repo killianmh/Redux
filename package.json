@@ -1,5 +1,5 @@
 {
-  "name": "redux",
+  "name": "ReduxWithReact",
   "version": "1.0.0",
   "description": "Web application to practice using redux in conjunction with React",
   "main": "index.js",
